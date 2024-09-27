@@ -1,0 +1,7 @@
+let a = Int(readLine()!)!
+let bc = readLine()!.split(separator: " ").map { Int($0)! }
+let b = bc[0]
+let c = bc[1]
+let s = readLine()!
+let result = "\(a + b + c) \(s)"
+print(result)
